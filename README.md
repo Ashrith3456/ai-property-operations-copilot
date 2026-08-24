@@ -1,12 +1,13 @@
 # AI Property Operations Copilot
 
-**An independent AI prototype inspired by PropertySuite's publicly described property-management, service-coordination, document, and customer workflows.** It is not affiliated with, endorsed by, or built with non-public information from PropertySuite.
+**An independent AI prototype inspired by
+publicly described property-management, service-coordination, document, and customer workflows.** It is not affiliated with, endorsed by, or built with non-public information from PropertySuite.
 
 This portfolio project turns a customer message into an evidence-grounded, approval-gated property operations workflow. It demonstrates deterministic classification, retrieval over synthetic records, explainable provider matching, simulated communications, follow-up escalation, auditability, and evaluation.
 
 ## Why this exists
 
-PropertySuite publicly presents a connected platform for Dubai-property owners: property records, documents, payments, service requests and provider coordination in one place. It also publicly cautions that AI output and AI-extracted data can be wrong and that important values should be verified. This prototype explores a safe operational copilot around those public workflows. See [company research](docs/company-research.md).
+PropertySuite publicly presents a connected platform for Dubai-property owners: property records, documents, payments, service requests and provider coordination in one place. It also publicly cautions that AI output and AI-extracted data can be wrong and that important values should be verified. This prototype explores a safe operational copilot around those public workflows. 
 
 ## Demo: recurring AC issue
 
@@ -66,7 +67,7 @@ infra/       PostgreSQL initialization
 
 ## Limitations
 
-The prototype uses local synthetic fixtures and deterministic retrieval in tests. PDF/DOCX extraction, embeddings, authentication, Alembic migrations and a production queue are represented by integration boundaries, but need infrastructure and security hardening before a production deployment. Docker configuration is included but could not be run in this workspace because Docker is unavailable. Details: [AI safety](docs/ai-safety.md).
+The prototype uses local synthetic fixtures and deterministic retrieval in tests. PDF/DOCX extraction, embeddings, authentication, Alembic migrations and a production queue are represented by integration boundaries, but need infrastructure and security hardening before a production deployment. Docker configuration is included but could not be run in this workspace because Docker is unavailable. Details: 
 
 ## Suggested GitHub metadata
 
@@ -75,4 +76,4 @@ The prototype uses local synthetic fixtures and deterministic retrieval in tests
 
 ## Disclaimer
 
-PropertySuite is referenced solely as public research context. Names, workflow examples and all operational records in this project are fictional. This is not PropertySuite software, does not use its trademarks or private data, and does not imply endorsement.
+
