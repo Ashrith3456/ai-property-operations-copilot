@@ -1,13 +1,14 @@
 # AI Property Operations Copilot
 
 **An independent AI prototype inspired by
-publicly described property-management, service-coordination, document, and customer workflows.** It is not affiliated with, endorsed by, or built with non-public information from PropertySuite.
+publicly described property-management, service-coordination, document, and customer workflows.** It is not affiliated with, endorsed by, or built with non-public information from one of the company from dubai 
+
 
 This portfolio project turns a customer message into an evidence-grounded, approval-gated property operations workflow. It demonstrates deterministic classification, retrieval over synthetic records, explainable provider matching, simulated communications, follow-up escalation, auditability, and evaluation.
 
 ## Why this exists
 
-PropertySuite publicly presents a connected platform for Dubai-property owners: property records, documents, payments, service requests and provider coordination in one place. It also publicly cautions that AI output and AI-extracted data can be wrong and that important values should be verified. This prototype explores a safe operational copilot around those public workflows. 
+the publicly presents a connected platform for Dubai-property owners: property records, documents, payments, service requests and provider coordination in one place. It also publicly cautions that AI output and AI-extracted data can be wrong and that important values should be verified. This prototype explores a safe operational copilot around those public workflows. 
 
 ## Demo: recurring AC issue
 
@@ -50,7 +51,7 @@ The deterministic and API tests run without an API key or database. The suite in
 
 ## Main safeguards
 
-- Synthetic data only; no PropertySuite data is included.
+- Synthetic data only; no data is included.
 - Recommendations carry evidence references; unsupported facts are omitted.
 - Low confidence, high priority, provider assignment and external communications require approval.
 - Mock mode is labelled in the API/UI and is never represented as live model output.
